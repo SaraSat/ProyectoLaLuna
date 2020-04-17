@@ -1,0 +1,28 @@
+.menulista {
+    font-size: 1.5em !important;
+}
+
+@media (max-width: 991px) {
+    .minimenu {
+        width: 100%
+    }
+}
+
+footer {
+    min-height: 70px;
+    background-color: #191919;
+    background-image: -moz-linear-gradient(top, #191919, #000000);
+    background-image: -o-linear-gradient(top, #191919, #000000);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #191919), color-stop(1, #000000));
+    background-image: -webkit-linear-gradient(#191919, #000000);
+    background-image: linear-gradient(top, #191919, #000000);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorStr='#191919', endColorStr='#000000');
+    border-top: 1px solid rgba(50, 50, 50, 0.3);
+    width: 100%;
+    position: static;
+    clear: both;
+    margin-top: 0px;
+    padding-top: 0px;
+    overflow: visible;
+    bottom: 0;
+}
